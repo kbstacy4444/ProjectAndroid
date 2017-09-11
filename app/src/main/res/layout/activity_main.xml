@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.kbstacy.happybirthday.MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:src="@drawable/heinz"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:paddingTop="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heinz Ketchup, it might just be the best Ketchup there is" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:src="@drawable/beaver"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:paddingTop="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I've never had this ketchup, but it looks like it has a niec smoky flavor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:src="@drawable/frenchs"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:paddingTop="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="They make good mustard, so their ketchup must be good too" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:src="@drawable/yes"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:paddingTop="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The god of all Ketchups. Sriracha will rule them all." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
